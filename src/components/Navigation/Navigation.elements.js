@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import {Link} from 'gatsby';
 
 export const NagivationWrapper=styled.nav`
+    position:absolute;
+    top:20px;
+    left:30px;
     display:flex;
     align-items:center;
     justify-content:flex-start;
@@ -15,8 +18,6 @@ export const Logo=styled.span`
 `;
 
 export const NavigationList=styled.ul`
-    margin:0;
-    padding:0;
     list-style:none;
     display:flex;
 `;
