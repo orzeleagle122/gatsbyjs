@@ -22,7 +22,7 @@ const ArticlesPage = ({ data }) => {
       <PageInfo title={pageData.title} paragraph={pageData.paragraph} />
       <ArticlesWrapper>
       {nodes.map(({excerpt, frontmatter: {title, slug, featuredImage}}) => (
-        <ArticlePreview title={title} excerpt={excerpt} background={featuredImage.childImageSharp.fluid.src} />
+        <ArticlePreview title={title} excerpt={excerpt}  background={featuredImage.childImageSharp.fluid.src}/>
       ))}
       </ArticlesWrapper>
     </>
